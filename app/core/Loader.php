@@ -48,10 +48,6 @@ class Loader
 
 
 
-    public function auto()
-    {
-        # code...
-    }
     public static function auto_load_requests($className) {
         $filename = "requests/" . $className . ".php";
         if (is_readable($filename)) {
